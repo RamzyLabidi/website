@@ -1,0 +1,2 @@
+- name: Print script contents
+  run: cat /home/runner/work/_temp/899c2f3b-90e3-44e9-a28e-ee4c6a504167.sh
