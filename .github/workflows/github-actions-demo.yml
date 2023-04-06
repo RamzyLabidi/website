@@ -12,4 +12,4 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install jupyter
-          jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 notebook.ipynb
+          jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 stable_diffusion (1).ipynb
