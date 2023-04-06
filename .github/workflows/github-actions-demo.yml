@@ -13,8 +13,7 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install jupyter
           jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 stable_diffusion (1).ipynb
-      - name: Checkout code
-        uses: actions/checkout@v2
+      
 
       # Add the step that prints the file contents here
       - name: Print file contents
@@ -29,3 +28,5 @@ jobs:
         run: pytest
       - name: View script file
         run: cat /home/runner/work/_temp/33db9c78-2871-41d9-bbed-733d6cebb689.sh
+      - name: Checkout code
+        uses: actions/checkout@v2
