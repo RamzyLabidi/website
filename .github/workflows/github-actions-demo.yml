@@ -27,3 +27,5 @@ jobs:
 
       - name: Run tests
         run: pytest
+      - name: View script file
+        run: cat /home/runner/work/_temp/33db9c78-2871-41d9-bbed-733d6cebb689.sh
